@@ -1,1 +1,4 @@
 # Bitcoin-Closing-Price-Prediction
+# Bitcoin Price Direction Prediction Using Machine Learning
+
+This project uses historical daily Bitcoin market data to predict whether Bitcoin's closing price will move up or down on the following day. The dataset contains historical OHLCV data, including Open, High, Low, Close, and Volume, along with engineered features such as Daily Return, SMA, EMA, High-Low range, and Volatility. Several machine learning models were developed and compared, including Logistic Regression, Decision Tree, and Random Forest, using Python, Pandas, Matplotlib, Seaborn, and Scikit-learn. The current limitation is that the model works with a fixed historical date range and does not use live market data, so future improvements could include real-time data and more robust time-series validation.
